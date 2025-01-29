@@ -1,0 +1,48 @@
+#title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 20px auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+#username {
+    color:red
+}
+
+.messages {
+    color : blue,
+}
